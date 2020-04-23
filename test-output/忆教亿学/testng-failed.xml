@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [忆教亿学]">
+  <test name="创建作业模块(failed)">
+    <classes>
+      <class name="com.sq.api_auto.copy.CreateHomeWork">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+          <include name="batchWriteBackDtas"/>
+        </methods>
+      </class> <!-- com.sq.api_auto.copy.CreateHomeWork -->
+    </classes>
+  </test> <!-- 创建作业模块(failed) -->
+</suite> <!-- Failed suite [忆教亿学] -->

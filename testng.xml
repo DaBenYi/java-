@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- 套件 -->
+<suite name="忆教亿学">
+	<!-- 测试集/模块 -->
+	<test name="登录模块">
+		<!-- 测试类 -->
+		<classes>
+			<!-- 单个的测试类定义 -->
+			<class name="com.sq.api_auto.copy.RegisterTestCase"></class>
+		</classes>
+	</test>
+	<test name="创建作业模块">
+		<!-- 测试类 -->
+		<classes>
+			<!-- 单个的测试类定义 -->
+			<class name="com.sq.api_auto.copy.CreateHomeWork"></class>
+		</classes>
+	</test>
+</suite>
